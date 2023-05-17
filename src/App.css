@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.title {
+  font-size: 1.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 30%;
+  margin-top: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.titleBody{
+  font-size: 12px;
+  margin-left: 23%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.split {
+  margin-top: 8%;
+  height: 100%;
+  width: 64%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+#parent{
+  position: relative;
+}
+
+.messages{
+  margin-top: 13%;
+  height:30%;
+  width:27%;
+  position: absolute;
+  border-radius:10%;
+}
+
+.phone{
+  margin-left: 5%;
+}
+
+.carousel{
+  padding: 10%;
+  /* background-color: blue; */
+  margin-top: 23%;
+  margin-left: 8%;
+  width: 50%;
+  color: black;
+}
+.carousel-indicators li { visibility: hidden; }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: black;
+  font-size: 20px; 
 }
